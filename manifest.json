@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "norzam.nvme-temperature",
+  "name": "NVMe Temperature",
+  "version": "1.0.0",
+  "author": "norzam",
+  "description": "Live NVMe composite temperatures",
+  "kinds": ["bar-widget"],
+  "entryPoints": {"barWidget": "BarWidget.qml"},
+  "barWidget": {
+    "displayName": "NVMe Temperature",
+    "description": "Live NVMe composite temperatures",
+    "category": "Status",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
